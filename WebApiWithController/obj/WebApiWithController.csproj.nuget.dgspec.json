@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Yuvaraj\\Technical activity\\Devops\\Assessment\\WebApiForTestsAndJenkins\\WebApiWithController\\WebApiWithController.csproj": {}
+    "D:\\Yuvaraj\\Technical activity\\Devops\\Assessment\\Assessment\\WebApiWithController\\WebApiWithController.csproj": {}
   },
   "projects": {
-    "D:\\Yuvaraj\\Technical activity\\Devops\\Assessment\\WebApiForTestsAndJenkins\\WebApiWithController\\WebApiWithController.csproj": {
+    "D:\\Yuvaraj\\Technical activity\\Devops\\Assessment\\Assessment\\WebApiWithController\\WebApiWithController.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Yuvaraj\\Technical activity\\Devops\\Assessment\\WebApiForTestsAndJenkins\\WebApiWithController\\WebApiWithController.csproj",
+        "projectUniqueName": "D:\\Yuvaraj\\Technical activity\\Devops\\Assessment\\Assessment\\WebApiWithController\\WebApiWithController.csproj",
         "projectName": "WebApiWithController",
-        "projectPath": "D:\\Yuvaraj\\Technical activity\\Devops\\Assessment\\WebApiForTestsAndJenkins\\WebApiWithController\\WebApiWithController.csproj",
+        "projectPath": "D:\\Yuvaraj\\Technical activity\\Devops\\Assessment\\Assessment\\WebApiWithController\\WebApiWithController.csproj",
         "packagesPath": "C:\\Users\\yuvaraj.sundara\\.nuget\\packages\\",
-        "outputPath": "D:\\Yuvaraj\\Technical activity\\Devops\\Assessment\\WebApiForTestsAndJenkins\\WebApiWithController\\obj\\",
+        "outputPath": "D:\\Yuvaraj\\Technical activity\\Devops\\Assessment\\Assessment\\WebApiWithController\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.19.5, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
